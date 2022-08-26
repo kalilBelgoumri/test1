@@ -9,11 +9,11 @@ function Home() {
     },
     {
       id: 2,
-      usernames: "kalil",
+      usernames: "sabah",
       age: 43,
     },
   ];
-  return <div>{data?.map((users) => console.log(users))}</div>;
+  return <div>{data?.map((users) => console.log(users.usernames))}</div>;
 }
 
 export default Home;
