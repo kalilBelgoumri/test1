@@ -1,4 +1,3 @@
-import React from "react";
 
 function Home() {
   const data = [
@@ -14,7 +13,13 @@ function Home() {
     },
   ];
 
-  return <div>{data?.map((users) => console.log(users.usernames))}</div>;
+  return (
+    <div className="home">
+      {data?.map((users) => (
+        <p key={users.id}>{users.usernames}</p>
+      ))}
+    </div>
+  );
 }
 
 export default Home;
