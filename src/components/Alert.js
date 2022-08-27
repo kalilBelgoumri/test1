@@ -1,10 +1,10 @@
-import React from "react";
+import "../css/alert.css";
 
 function Alert() {
   return (
     <div>
-      <h1> Test</h1>
-      <h2>Test2</h2>
+      <h1>Alert</h1>
+      <h2>test</h2>
     </div>
   );
 }
