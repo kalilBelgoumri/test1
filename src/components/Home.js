@@ -13,7 +13,8 @@ function Home() {
       age: 43,
     },
   ];
-  return <div>{data?.map((users) => console.log(users))}</div>;
+
+  return <div>{data?.map((users) => console.log(users.usernames))}</div>;
 }
 
 export default Home;
